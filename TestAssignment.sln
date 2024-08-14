@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAssignmentUiProject", "TestAssignment\TestAssignmentUiProject.csproj", "{6BB38AAE-1FBD-42DD-B7F0-23E28AF03E79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAssignmentApiProject", "TestAssignmentApiProject\TestAssignmentApiProject.csproj", "{38047240-48AC-4143-8610-327CCDF5E4B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB38AAE-1FBD-42DD-B7F0-23E28AF03E79}.Debug|x64.ActiveCfg = Debug|x64
+		{6BB38AAE-1FBD-42DD-B7F0-23E28AF03E79}.Debug|x64.Build.0 = Debug|x64
+		{6BB38AAE-1FBD-42DD-B7F0-23E28AF03E79}.Release|x64.ActiveCfg = Release|x64
+		{6BB38AAE-1FBD-42DD-B7F0-23E28AF03E79}.Release|x64.Build.0 = Release|x64
+		{38047240-48AC-4143-8610-327CCDF5E4B8}.Debug|x64.ActiveCfg = Debug|x64
+		{38047240-48AC-4143-8610-327CCDF5E4B8}.Debug|x64.Build.0 = Debug|x64
+		{38047240-48AC-4143-8610-327CCDF5E4B8}.Release|x64.ActiveCfg = Release|x64
+		{38047240-48AC-4143-8610-327CCDF5E4B8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7E58B0B-F945-4BF4-83DA-08A178C0C948}
+	EndGlobalSection
+EndGlobal
