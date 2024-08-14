@@ -21,10 +21,6 @@ jobs:
           command: dotnet build --configuration Release
 
       - run:
-          name: Run Playwright Install
-          command: dotnet build-server shutdown && npx playwright install
-
-      - run:
           name: Run Tests
           command: dotnet test --filter "TestCategory=Playwright"
 
