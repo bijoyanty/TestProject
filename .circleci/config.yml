@@ -4,7 +4,7 @@ executors:
   dotnet_executor:
     docker:
        - image: mcr.microsoft.com/dotnet/sdk:8.0
-       - image: circleci/google-chrome:latest 
+       - image: mcr.microsoft.com/playwright:bionic
     working_directory: ~/project
 
 jobs:
