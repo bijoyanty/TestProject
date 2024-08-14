@@ -12,6 +12,9 @@ jobs:
     executor: dotnet_executor
     steps:
       - checkout
+      - run:
+          name: Update apt and install gnupg2
+          command: sudo apt-get update && sudo apt-get install -y gnupg2
       - browser-tools/install-chrome
       - run:
           name: Restore NuGet packages
